@@ -8,12 +8,11 @@ function App() {
   
 
   return (
-      <div id="portfolio">
-        <h1>Marcos Paulo Lima</h1>
-        <Sidebar />
-        <MainContent />
-      </div>
-     
+    <div id="portfolio">
+      <h1>Marcos Paulo Lima</h1>
+      <Sidebar />
+      <MainContent />
+    </div>
   );
 }
 
