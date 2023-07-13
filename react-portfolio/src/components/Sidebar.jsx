@@ -7,6 +7,7 @@ import InformationContainer from './InformationContainer';
 const Sidebar = () => {
     return <aside id="sidebar">
         <img src="https://github.com/marcosplimam.png" alt="kim" />
+        <p className="myname">Marcos Paulo Lima</p>
         <p className="job-title">Fullstack Developer</p>
         <SocialNetworks />
         <InformationContainer />

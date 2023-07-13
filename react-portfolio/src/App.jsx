@@ -1,18 +1,25 @@
 import MainContent from './components/MainContent';
 import Sidebar from './components/Sidebar';
 
+
 import './styles/components/app.sass';
+import Header from './components/Header';
+
 
 
 function App() {
-  
-
   return (
-    <div id="portfolio">
-      <h1>Marcos Paulo Lima</h1>
-      <Sidebar />
-      <MainContent />
-    </div>
+ 
+      <section id="light">
+        <div className="switch">
+          <Header />
+        </div>
+        
+        <div id="portfolio">
+          <Sidebar />
+          <MainContent />
+        </div>
+      </section>
   );
 }
 

@@ -10,7 +10,6 @@ const stacks = [
     { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
     { id: "react", name: "React", icon: <DiReact /> },
     { id: "sql", name: "SQL", icon: <PiFileSql /> },
-    { id: "linux", name: "Linux", icon: <DiLinux /> },
 ]
 
 const StacksContainer = () => {
